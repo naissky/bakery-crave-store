@@ -5,6 +5,7 @@ import "@fontsource-variable/dm-sans";
 
 import { ClientRouter } from "astro:transitions";
 import Footer from "../components/Footer.astro";
+import { Header } from "../components/Header";	
 ---
 
 <!doctype html>
@@ -31,6 +32,7 @@ import Footer from "../components/Footer.astro";
 		<ClientRouter />
 	</head>
 	<body>
+		<Header client:load />
 		<main class="flex flex-col justify-center items-center">
 			<slot />
 		</main>

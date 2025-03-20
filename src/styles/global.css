@@ -18,3 +18,18 @@ body {
     align-items: center;
     justify-content: center;
 }
+
+header {
+    animation: header-scroll-bg 0.2s ease-in-out forwards;
+    animation-timeline: scroll();
+}
+
+@keyframes header-scroll-bg {
+    0% {
+        background-color: var(--color-crave-pastel);
+        backdrop-filter: blur(4px);
+    }
+    100% {
+        background-color: rgba(244, 244, 244, 0.3);        
+    }
+}
