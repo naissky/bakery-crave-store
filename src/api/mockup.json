@@ -1,0 +1,474 @@
+{
+    "menu": {
+        "bakeryName": "Sunshine Bakery",
+        "description": "Artisanal baked goods made fresh daily",
+        "categories": [
+            {
+                "id": "bread",
+                "name": "Breads",
+                "description": "Freshly baked artisanal breads",
+                "items": [
+                    {
+                        "id": "sourdough",
+                        "name": "Sourdough Loaf",
+                        "description": "Traditional sourdough with a crispy crust and chewy interior",
+                        "price": 6.50,
+                        "allergens": [
+                            "gluten",
+                            "wheat"
+                        ],
+                        "isVegan": true,
+                        "isGlutenFree": false,
+                        "nutritionalInfo": {
+                            "calories": 120,
+                            "protein": 4,
+                            "carbs": 22,
+                            "fat": 0.5
+                        },
+                        "imageUrl": "https://placehold.co/300x300/png?text=Sourdough",
+                        "availableDays": [
+                            "Monday",
+                            "Wednesday",
+                            "Friday",
+                            "Saturday"
+                        ]
+                    },
+                    {
+                        "id": "baguette",
+                        "name": "French Baguette",
+                        "description": "Classic French-style baguette with a crisp crust",
+                        "price": 4.25,
+                        "allergens": [
+                            "gluten",
+                            "wheat"
+                        ],
+                        "isVegan": true,
+                        "isGlutenFree": false,
+                        "nutritionalInfo": {
+                            "calories": 130,
+                            "protein": 4.5,
+                            "carbs": 24,
+                            "fat": 0.3
+                        },
+                        "imageUrl": "https://placehold.co/300x300/png?text=Baguette",
+                        "availableDays": [
+                            "Monday",
+                            "Tuesday",
+                            "Thursday",
+                            "Saturday"
+                        ]
+                    },
+                    {
+                        "id": "multigrain",
+                        "name": "Multigrain Loaf",
+                        "description": "Hearty bread with a blend of whole grains and seeds",
+                        "price": 7.25,
+                        "allergens": [
+                            "gluten",
+                            "wheat",
+                            "sesame"
+                        ],
+                        "isVegan": true,
+                        "isGlutenFree": false,
+                        "nutritionalInfo": {
+                            "calories": 110,
+                            "protein": 5,
+                            "carbs": 18,
+                            "fat": 2
+                        },
+                        "imageUrl": "https://placehold.co/300x300/png?text=Multigrain",
+                        "availableDays": [
+                            "Tuesday",
+                            "Thursday",
+                            "Sunday"
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "pastries",
+                "name": "Pastries",
+                "description": "Delicate and flaky pastries",
+                "items": [
+                    {
+                        "id": "croissant",
+                        "name": "Butter Croissant",
+                        "description": "Flaky, buttery layers in the classic French style",
+                        "price": 3.75,
+                        "allergens": [
+                            "gluten",
+                            "wheat",
+                            "dairy"
+                        ],
+                        "isVegan": false,
+                        "isGlutenFree": false,
+                        "nutritionalInfo": {
+                            "calories": 235,
+                            "protein": 4.5,
+                            "carbs": 26,
+                            "fat": 12
+                        },
+                        "imageUrl": "https://placehold.co/300x300/png?text=Croissant",
+                        "availableDays": [
+                            "Monday",
+                            "Tuesday",
+                            "Wednesday",
+                            "Thursday",
+                            "Friday",
+                            "Saturday",
+                            "Sunday"
+                        ]
+                    },
+                    {
+                        "id": "pain-chocolat",
+                        "name": "Pain au Chocolat",
+                        "description": "Buttery croissant dough with rich chocolate filling",
+                        "price": 4.25,
+                        "allergens": [
+                            "gluten",
+                            "wheat",
+                            "dairy",
+                            "soy"
+                        ],
+                        "isVegan": false,
+                        "isGlutenFree": false,
+                        "nutritionalInfo": {
+                            "calories": 280,
+                            "protein": 5,
+                            "carbs": 30,
+                            "fat": 16
+                        },
+                        "imageUrl": "https://placehold.co/300x300/png?text=Pain+au+Chocolat",
+                        "availableDays": [
+                            "Monday",
+                            "Wednesday",
+                            "Friday",
+                            "Saturday",
+                            "Sunday"
+                        ]
+                    },
+                    {
+                        "id": "almond-croissant",
+                        "name": "Almond Croissant",
+                        "description": "Croissant filled with almond cream and topped with sliced almonds",
+                        "price": 4.50,
+                        "allergens": [
+                            "gluten",
+                            "wheat",
+                            "dairy",
+                            "nuts"
+                        ],
+                        "isVegan": false,
+                        "isGlutenFree": false,
+                        "nutritionalInfo": {
+                            "calories": 310,
+                            "protein": 7,
+                            "carbs": 32,
+                            "fat": 18
+                        },
+                        "imageUrl": "https://placehold.co/300x300/png?text=Almond+Croissant",
+                        "availableDays": [
+                            "Tuesday",
+                            "Thursday",
+                            "Saturday"
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "cakes",
+                "name": "Cakes & Tarts",
+                "description": "Delightful cakes and tarts for special occasions or everyday treats",
+                "items": [
+                    {
+                        "id": "carrot-cake",
+                        "name": "Carrot Cake",
+                        "description": "Moist carrot cake with cream cheese frosting and walnut garnish",
+                        "price": 5.95,
+                        "allergens": [
+                            "gluten",
+                            "wheat",
+                            "dairy",
+                            "eggs",
+                            "nuts"
+                        ],
+                        "isVegan": false,
+                        "isGlutenFree": false,
+                        "nutritionalInfo": {
+                            "calories": 420,
+                            "protein": 6,
+                            "carbs": 52,
+                            "fat": 22
+                        },
+                        "imageUrl": "https://placehold.co/300x300/png?text=Carrot+Cake",
+                        "availableDays": [
+                            "Wednesday",
+                            "Thursday",
+                            "Friday",
+                            "Saturday",
+                            "Sunday"
+                        ]
+                    },
+                    {
+                        "id": "lemon-tart",
+                        "name": "Lemon Tart",
+                        "description": "Tangy lemon custard in a buttery shortcrust pastry",
+                        "price": 6.25,
+                        "allergens": [
+                            "gluten",
+                            "wheat",
+                            "dairy",
+                            "eggs"
+                        ],
+                        "isVegan": false,
+                        "isGlutenFree": false,
+                        "nutritionalInfo": {
+                            "calories": 380,
+                            "protein": 5,
+                            "carbs": 42,
+                            "fat": 20
+                        },
+                        "imageUrl": "https://placehold.co/300x300/png?text=Lemon+Tart",
+                        "availableDays": [
+                            "Friday",
+                            "Saturday",
+                            "Sunday"
+                        ]
+                    },
+                    {
+                        "id": "chocolate-cake",
+                        "name": "Chocolate Ganache Cake",
+                        "description": "Rich chocolate cake with smooth ganache frosting",
+                        "price": 6.50,
+                        "allergens": [
+                            "gluten",
+                            "wheat",
+                            "dairy",
+                            "eggs",
+                            "soy"
+                        ],
+                        "isVegan": false,
+                        "isGlutenFree": false,
+                        "nutritionalInfo": {
+                            "calories": 450,
+                            "protein": 6,
+                            "carbs": 48,
+                            "fat": 26
+                        },
+                        "imageUrl": "https://placehold.co/300x300/png?text=Chocolate+Cake",
+                        "availableDays": [
+                            "Monday",
+                            "Friday",
+                            "Saturday",
+                            "Sunday"
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "cookies",
+                "name": "Cookies",
+                "description": "Freshly baked cookies and biscuits",
+                "items": [
+                    {
+                        "id": "chocolate-chip",
+                        "name": "Chocolate Chip Cookie",
+                        "description": "Classic cookie with semisweet chocolate chunks",
+                        "price": 2.50,
+                        "allergens": [
+                            "gluten",
+                            "wheat",
+                            "dairy",
+                            "eggs",
+                            "soy"
+                        ],
+                        "isVegan": false,
+                        "isGlutenFree": false,
+                        "nutritionalInfo": {
+                            "calories": 180,
+                            "protein": 2,
+                            "carbs": 24,
+                            "fat": 9
+                        },
+                        "imageUrl": "https://placehold.co/300x300/png?text=Chocolate+Chip",
+                        "availableDays": [
+                            "Monday",
+                            "Tuesday",
+                            "Wednesday",
+                            "Thursday",
+                            "Friday",
+                            "Saturday",
+                            "Sunday"
+                        ]
+                    },
+                    {
+                        "id": "oatmeal-raisin",
+                        "name": "Oatmeal Raisin Cookie",
+                        "description": "Chewy oatmeal cookie with plump raisins and a hint of cinnamon",
+                        "price": 2.50,
+                        "allergens": [
+                            "gluten",
+                            "wheat",
+                            "dairy",
+                            "eggs"
+                        ],
+                        "isVegan": false,
+                        "isGlutenFree": false,
+                        "nutritionalInfo": {
+                            "calories": 170,
+                            "protein": 3,
+                            "carbs": 26,
+                            "fat": 7
+                        },
+                        "imageUrl": "https://placehold.co/300x300/png?text=Oatmeal+Raisin",
+                        "availableDays": [
+                            "Monday",
+                            "Wednesday",
+                            "Friday"
+                        ]
+                    },
+                    {
+                        "id": "vegan-cookie",
+                        "name": "Vegan Chocolate Cookie",
+                        "description": "Plant-based chocolate cookie with coconut oil",
+                        "price": 3.00,
+                        "allergens": [
+                            "gluten",
+                            "wheat",
+                            "soy"
+                        ],
+                        "isVegan": true,
+                        "isGlutenFree": false,
+                        "nutritionalInfo": {
+                            "calories": 160,
+                            "protein": 2,
+                            "carbs": 22,
+                            "fat": 8
+                        },
+                        "imageUrl": "https://placehold.co/300x300/png?text=Vegan+Cookie",
+                        "availableDays": [
+                            "Tuesday",
+                            "Thursday",
+                            "Saturday"
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "glutenfree",
+                "name": "Gluten-Free Options",
+                "description": "Delicious treats without gluten",
+                "items": [
+                    {
+                        "id": "gf-brownie",
+                        "name": "Gluten-Free Brownie",
+                        "description": "Rich, fudgy brownie made with almond flour",
+                        "price": 4.25,
+                        "allergens": [
+                            "dairy",
+                            "eggs",
+                            "nuts"
+                        ],
+                        "isVegan": false,
+                        "isGlutenFree": true,
+                        "nutritionalInfo": {
+                            "calories": 240,
+                            "protein": 5,
+                            "carbs": 22,
+                            "fat": 16
+                        },
+                        "imageUrl": "https://placehold.co/300x300/png?text=GF+Brownie",
+                        "availableDays": [
+                            "Tuesday",
+                            "Thursday",
+                            "Saturday"
+                        ]
+                    },
+                    {
+                        "id": "gf-muffin",
+                        "name": "Gluten-Free Blueberry Muffin",
+                        "description": "Moist muffin with fresh blueberries and rice flour blend",
+                        "price": 4.50,
+                        "allergens": [
+                            "dairy",
+                            "eggs"
+                        ],
+                        "isVegan": false,
+                        "isGlutenFree": true,
+                        "nutritionalInfo": {
+                            "calories": 220,
+                            "protein": 4,
+                            "carbs": 28,
+                            "fat": 11
+                        },
+                        "imageUrl": "https://placehold.co/300x300/png?text=GF+Muffin",
+                        "availableDays": [
+                            "Wednesday",
+                            "Friday",
+                            "Sunday"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "specialOffers": [
+            {
+                "id": "weekend-special",
+                "name": "Weekend Special Box",
+                "description": "Assortment of our best sellers at a special price",
+                "price": 18.95,
+                "contents": [
+                    "croissant",
+                    "pain-chocolat",
+                    "chocolate-chip",
+                    "lemon-tart"
+                ],
+                "availableDays": [
+                    "Saturday",
+                    "Sunday"
+                ],
+                "imageUrl": "https://placehold.co/300x300/png?text=Weekend+Special"
+            },
+            {
+                "id": "breakfast-bundle",
+                "name": "Breakfast Bundle",
+                "description": "Perfect morning start with bread and pastries",
+                "price": 12.50,
+                "contents": [
+                    "baguette",
+                    "croissant",
+                    "pain-chocolat"
+                ],
+                "availableDays": [
+                    "Monday",
+                    "Tuesday",
+                    "Wednesday",
+                    "Thursday",
+                    "Friday"
+                ],
+                "imageUrl": "https://placehold.co/300x300/png?text=Breakfast+Bundle"
+            }
+        ],
+        "storeHours": {
+            "Monday": "7:00 AM - 6:00 PM",
+            "Tuesday": "7:00 AM - 6:00 PM",
+            "Wednesday": "7:00 AM - 6:00 PM",
+            "Thursday": "7:00 AM - 6:00 PM",
+            "Friday": "7:00 AM - 7:00 PM",
+            "Saturday": "8:00 AM - 7:00 PM",
+            "Sunday": "8:00 AM - 5:00 PM"
+        },
+        "location": {
+            "address": "123 Main Street",
+            "city": "Bakersville",
+            "state": "CA",
+            "zip": "90210",
+            "phone": "555-123-4567",
+            "coordinates": {
+                "latitude": 34.0522,
+                "longitude": -118.2437
+            },
+            "imageUrl": "https://placehold.co/300x300/png?text=Bakery+Location"
+        }
+    }
+}
