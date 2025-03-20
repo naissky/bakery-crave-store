@@ -1,0 +1,24 @@
+---
+import BentoItem from "./BentoItem.astro";
+---
+
+<section class="max-w-screen-lg mx-auto grid grid-cols-6 auto-rows-[12rem] gap-4 mb-5">
+    <BentoItem title="Preview Example" class="col-span-6 md:col-span-4 md:row-span-2">
+        <div slot="image" class="bg-[url('/image-4.webp')] z-0 absolute left-0 top-0 bottom-0 w-full
+        group-hover:scale-110 transition-scale duration-500 ease-in-out opacity-100 hover:opacity-10
+        bg-center bg-cover bg-no-repeat bg-crave-rosa"></div>
+        <p slot="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+    </BentoItem>
+    <BentoItem title="Preview Example" class="col-span-6 md:col-span-2 md:row-span-2">
+        <div slot="image" class="bg-[url('/image-4.webp')] z-0 absolute left-0 top-0 bottom-0 w-full
+        group-hover:scale-110 transition-scale duration-500 ease-in-out opacity-100 hover:opacity-10
+        bg-center bg-cover bg-no-repeat bg-crave-night"></div>
+        <p slot="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+    </BentoItem>
+    <BentoItem title="Preview Example" class="col-span-6 md:col-span-6 md:row-span-1">
+        <div slot="image" class="bg-[url('/header.webp')] z-0 absolute left-0 top-0 bottom-0 w-full
+        group-hover:scale-110 transition-scale duration-500 ease-in-out opacity-100 hover:opacity-10
+        bg-center bg-cover bg-no-repeat bg-crave-rosa"></div>
+        <p slot="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+    </BentoItem>
+</section>

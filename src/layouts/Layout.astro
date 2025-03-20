@@ -1,22 +1,39 @@
+---
+import "../styles/global.css";
+import "@fontsource-variable/playfair-display";
+import "@fontsource-variable/dm-sans";
+
+import { ClientRouter } from "astro:transitions";
+import Footer from "../components/Footer.astro";
+---
+
 <!doctype html>
 <html lang="en">
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width" />
+		<title>Crave Bakery - Making sure you really crave it!</title>
+
+		<meta property="og:title" content="Crave Bakery - Making sure you really crave it!" />
+		<meta
+			property="og:description"
+			content="Crave Bakery is a patisserie located in the heart of London, renowned for crafting its products with only the finest ingredients"
+		/>
+		<meta property="og:image" content="/og.jpg" />
+
+		<meta name="twitter:card" content="summary_large_image" />
+		<meta name="twitter:title" content="Crave Bakery - Making sure you really crave it!" />
+		<meta name="twitter:description" content="Crave Bakery is a patisserie located in the heart of London, renowned for crafting its products with only the finest ingredients" />
+		<meta name="twitter:image" content="/og.jpg" />
+
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro Basics</title>
+
+		<ClientRouter />
 	</head>
 	<body>
-		<slot />
+		<main class="flex flex-col justify-center items-center">
+			<slot />
+		</main>
+		<Footer />
 	</body>
 </html>
-
-<style>
-	html,
-	body {
-		margin: 0;
-		width: 100%;
-		height: 100%;
-	}
-</style>

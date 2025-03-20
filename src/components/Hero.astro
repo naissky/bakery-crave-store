@@ -1,0 +1,40 @@
+<section id="hero" class="max-w-screen-md min-h-screen flex flex-col justify-center">
+    <div class="container text-pretty">
+        <h1 class="hero-title font-playfair text-8xl text-center mb-8">
+            Making sure you really<span class="italic">crave</span> it!
+        </h1>
+        <p class="text-xl text-center text-black/70 mb-8">
+            CLASSIC WITH A MODERN TWIST. AN EXPERIENCE FOR THE THASTE BUDS AND
+            THE SOUL.
+        </p>
+        <div class="flex items-center justify-center space-x-4">
+            <a
+                class="px-4 py-2 bg-crave-rosa text-crave-night transition-all duration-300 ease-in-out hover:-translate-y-1 hover:shadow-xl shadow-crave-night/5"
+                href="">Check our Menu</a
+            >
+            <a
+                class="px-4 py-2 bg-crave-night text-crave-pastel transition-all duration-300 ease-in-out hover:-translate-y-1 hover:shadow-xl shadow-crave-night/5"
+                href="">Contact Us</a
+            >
+        </div>
+    </div>
+</section>
+
+<style>
+    #hero {
+        animation: heroTitle 0.5s ease-in-out forwards;
+    }
+
+    @keyframes heroTitle {
+        0% {
+            opacity: 0;
+            filter: blur(4px);
+            transform: translateY(-20px);
+        }
+        100% {
+            opacity: 1;
+            filter: blur(0);
+            transform: translateY(0);
+        }
+    }
+</style>
