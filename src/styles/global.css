@@ -9,6 +9,10 @@
     --color-crave-night: rgb(0, 0, 0);
 }
 
+* {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: var(--font-dm-sans);
     background-color: var(--color-crave-pastel);
@@ -17,7 +21,6 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    scroll-behavior: smooth;
 }
 
 header {
@@ -31,6 +34,6 @@ header {
         backdrop-filter: blur(4px);
     }
     100% {
-        background-color: rgba(244, 244, 244, 0.3);        
+        background-color: var(--color-crave-rosa);        
     }
 }
