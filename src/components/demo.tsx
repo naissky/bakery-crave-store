@@ -167,7 +167,7 @@ const BakeryMenuDisplay: React.FC = () => {
     >
       <div className="h-48 bg-gray-200 flex items-center justify-center">
         <img 
-          src="/api/placeholder/400/320" 
+          src={offer.imageUrl} 
           alt={offer.name} 
           className="h-full w-full object-cover"
         />
@@ -192,7 +192,7 @@ const BakeryMenuDisplay: React.FC = () => {
   );
 
   return (
-    <div className="container mx-auto p-4">
+    <div id='bakery-menu' className="container mx-auto p-4">
       {bakeryInfo && (
         <div className="mb-8 text-center">
           <h1 className="text-3xl font-bold mb-2">{bakeryInfo.bakeryName}</h1>
@@ -217,6 +217,7 @@ const BakeryMenuDisplay: React.FC = () => {
             <label className="flex items-center gap-2">
               <input
                 type="checkbox"
+                className='accent-crave-rosa'
                 checked={veganOnly}
                 onChange={() => setVeganOnly(!veganOnly)}
               />
@@ -225,6 +226,7 @@ const BakeryMenuDisplay: React.FC = () => {
             <label className="flex items-center gap-2">
               <input
                 type="checkbox"
+                className='accent-crave-rosa'
                 checked={glutenFreeOnly}
                 onChange={() => setGlutenFreeOnly(!glutenFreeOnly)}
               />
@@ -249,14 +251,14 @@ const BakeryMenuDisplay: React.FC = () => {
         </div>
       ) : (
         <>
-          {specialOffers.length > 0 && (
+          {/* {specialOffers.length > 0 && (
             <div className="mb-8">
               <h2 className="text-2xl font-semibold mb-4">Ofertas Especiales</h2>
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                 {specialOffers.map(offer => renderSpecialOffer(offer))}
               </div>
             </div>
-          )}
+          )} */}
           
           <div className="mb-6">
             <h2 className="text-2xl font-semibold mb-4">Nuestro Menú</h2>
