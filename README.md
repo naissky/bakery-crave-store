@@ -24,7 +24,8 @@ To get started with the Bakery Crave Store, clone the repository and install the
 ```sh
 git clone <repository-url>
 cd bakery-crave-store
-pnpm install```
+pnpm install
+```
 
 ## 🚀 Usage
 
