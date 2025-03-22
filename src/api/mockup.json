@@ -25,7 +25,7 @@
                             "carbs": 22,
                             "fat": 0.5
                         },
-                        "imageUrl": "https://placehold.co/300x300/png?text=Sourdough",
+                        "imageUrl": "https://www.theclevercarrot.com/wp-content/uploads/2013/12/sourdough-bread-round-1-of-1.jpg",
                         "availableDays": [
                             "Monday",
                             "Wednesday",
@@ -50,7 +50,7 @@
                             "carbs": 24,
                             "fat": 0.3
                         },
-                        "imageUrl": "https://placehold.co/300x300/png?text=Baguette",
+                        "imageUrl": "https://www.hola.com/horizon/landscape/bc9717b75ced-baguette-adobe-t.jpg",
                         "availableDays": [
                             "Monday",
                             "Tuesday",
@@ -76,7 +76,7 @@
                             "carbs": 18,
                             "fat": 2
                         },
-                        "imageUrl": "https://placehold.co/300x300/png?text=Multigrain",
+                        "imageUrl": "https://www.marthastewart.com/thmb/2FZHmXJbBN71S3zkns9Nxo94Dl8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/RM-MSL-340230-multigrain-bread-hero-0213-fec5de4bf6134832b9a2216303e7a94c.jpg",
                         "availableDays": [
                             "Tuesday",
                             "Thursday",
@@ -108,7 +108,7 @@
                             "carbs": 26,
                             "fat": 12
                         },
-                        "imageUrl": "https://placehold.co/300x300/png?text=Croissant",
+                        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/28/2018_01_Croissant_IMG_0685.JPG",
                         "availableDays": [
                             "Monday",
                             "Tuesday",
@@ -138,7 +138,7 @@
                             "carbs": 30,
                             "fat": 16
                         },
-                        "imageUrl": "https://placehold.co/300x300/png?text=Pain+au+Chocolat",
+                        "imageUrl": "https://images.immediate.co.uk/production/volatile/sites/30/2024/06/PainAuChoc-0ff983a.jpg?quality=90&resize=556,505",
                         "availableDays": [
                             "Monday",
                             "Wednesday",
@@ -166,7 +166,7 @@
                             "carbs": 32,
                             "fat": 18
                         },
-                        "imageUrl": "https://placehold.co/300x300/png?text=Almond+Croissant",
+                        "imageUrl": "https://static01.nyt.com/images/2021/04/07/dining/06croissantsrex4-almond/06croissantsrex4-almond-mediumSquareAt3X.jpg",
                         "availableDays": [
                             "Tuesday",
                             "Thursday",
@@ -200,7 +200,7 @@
                             "carbs": 52,
                             "fat": 22
                         },
-                        "imageUrl": "https://placehold.co/300x300/png?text=Carrot+Cake",
+                        "imageUrl": "https://static01.nyt.com/images/2020/11/01/dining/Carrot-Cake-textless/Carrot-Cake-textless-videoSixteenByNineJumbo1600.jpg",
                         "availableDays": [
                             "Wednesday",
                             "Thursday",
@@ -228,7 +228,7 @@
                             "carbs": 42,
                             "fat": 20
                         },
-                        "imageUrl": "https://placehold.co/300x300/png?text=Lemon+Tart",
+                        "imageUrl": "https://www.recipetineats.com/tachyon/2021/06/French-Lemon-Tart_5-main-SQ.jpg",
                         "availableDays": [
                             "Friday",
                             "Saturday",
@@ -255,7 +255,7 @@
                             "carbs": 48,
                             "fat": 26
                         },
-                        "imageUrl": "https://placehold.co/300x300/png?text=Chocolate+Cake",
+                        "imageUrl": "https://sallysbakingaddiction.com/wp-content/uploads/2013/04/triple-chocolate-cake-4.jpg",
                         "availableDays": [
                             "Monday",
                             "Friday",
@@ -290,7 +290,7 @@
                             "carbs": 24,
                             "fat": 9
                         },
-                        "imageUrl": "https://placehold.co/300x300/png?text=Chocolate+Chip",
+                        "imageUrl": "https://cdn.loveandlemons.com/wp-content/uploads/2024/08/chocolate-chip-cookie-recipe.jpg",
                         "availableDays": [
                             "Monday",
                             "Tuesday",
@@ -320,7 +320,7 @@
                             "carbs": 26,
                             "fat": 7
                         },
-                        "imageUrl": "https://placehold.co/300x300/png?text=Oatmeal+Raisin",
+                        "imageUrl": "https://sallysbakingaddiction.com/wp-content/uploads/2014/07/oatmeal-raisin-cookies-3.jpg",
                         "availableDays": [
                             "Monday",
                             "Wednesday",
@@ -345,7 +345,7 @@
                             "carbs": 22,
                             "fat": 8
                         },
-                        "imageUrl": "https://placehold.co/300x300/png?text=Vegan+Cookie",
+                        "imageUrl": "https://lovingitvegan.com/wp-content/uploads/2021/10/Vegan-Chocolate-Cookies-Square.jpg",
                         "availableDays": [
                             "Tuesday",
                             "Thursday",
@@ -377,7 +377,7 @@
                             "carbs": 22,
                             "fat": 16
                         },
-                        "imageUrl": "https://placehold.co/300x300/png?text=GF+Brownie",
+                        "imageUrl": "https://butternutbakeryblog.com/wp-content/uploads/2023/05/gluten-free-brownies-stacked.jpg",
                         "availableDays": [
                             "Tuesday",
                             "Thursday",
@@ -401,7 +401,7 @@
                             "carbs": 28,
                             "fat": 11
                         },
-                        "imageUrl": "https://placehold.co/300x300/png?text=GF+Muffin",
+                        "imageUrl": "https://www.mamaknowsglutenfree.com/wp-content/uploads/2022/03/easy-gluten-free-blueberry-muffins-rc3.jpg",
                         "availableDays": [
                             "Wednesday",
                             "Friday",
