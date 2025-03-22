@@ -245,7 +245,8 @@ const BakeryMenuDisplay: React.FC = () => {
         </div>
       )}
 
-      <div className="mb-6">
+      {/* Fixed height search and filter section to prevent layout shift */}
+      <div className="mb-6 min-h-24">
         <div className="flex flex-col space-y-4 sm:space-y-0 sm:flex-row sm:items-center sm:justify-between gap-4 mb-4">
           <div className="relative w-full sm:w-1/2">
             <input
@@ -281,9 +282,17 @@ const BakeryMenuDisplay: React.FC = () => {
         </div>
       </div>
 
+      {/* Fixed height section header to ensure consistent layout */}
+      <div className="min-h-12 mb-4">
+        {isSearching ? (
+          <h2 className="text-xl font-semibold">Resultados de búsqueda</h2>
+        ) : (
+          <h2 className="text-xl sm:text-2xl font-semibold">Nuestro Menú</h2>
+        )}
+      </div>
+
       {isSearching ? (
         <div>
-          <h2 className="text-xl font-semibold mb-4">Resultados de búsqueda</h2>
           {searchResults.length > 0 ? (
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
               {searchResults.map((item) => renderMenuItem(item))}
@@ -307,11 +316,7 @@ const BakeryMenuDisplay: React.FC = () => {
             </div>
           )} */}
 
-          <div className="mb-6">
-            <h2 className="text-xl sm:text-2xl font-semibold mb-4">
-              Nuestro Menú
-            </h2>
-
+          <div>
             {/* Versión móvil: Menú desplegable para categorías */}
             <div className="sm:hidden mb-4">
               <button
@@ -363,7 +368,7 @@ const BakeryMenuDisplay: React.FC = () => {
                 {categories
                   .filter((cat) => cat.id === activeCategory)
                   .map((category) => (
-                    <div key={category.id}>
+                    <div key={category.id} className="min-h-16">
                       <h3 className="text-lg sm:text-xl font-medium mb-2">
                         {category.name}
                       </h3>
